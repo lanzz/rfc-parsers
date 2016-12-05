@@ -2,7 +2,7 @@
 
 Authority: https://tools.ietf.org/html/rfc4647
 """
-from ..parse import *
+from abnf import *
 from .rfc5234 import ABNF
 
 

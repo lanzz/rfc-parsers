@@ -12,4 +12,10 @@ setup(
 
     packages=find_packages(),
     python_requires='>=3.5',
+    install_requires=[
+        'abnf == 0.1',
+    ],
+    dependency_links=[
+        'git+https://github.com/lanzz/abnf#egg=abnf-0.1',
+    ],
 )

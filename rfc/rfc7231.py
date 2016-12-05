@@ -2,7 +2,7 @@
 
 Authority: https://tools.ietf.org/html/rfc7231
 """
-from ..parse import *
+from abnf import *
 from .rfc4647 import LangRange
 from .rfc5234 import ABNF
 from .rfc5322 import IMF
